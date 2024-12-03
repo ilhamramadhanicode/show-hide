@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+ul .container {
+    width: 350px;
+    height: 325px;
+    padding: 25px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: -1px 5px 20px 4px rgba(0, 0, 0, 0.16);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 2px solid #807979;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 2px solid #807979;
+    border-radius: 5px;
+}
+
+ul .container .input-box li i {
+    position: absolute;
+    top: 147px;
+    right: 38px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(75, 75, 185);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+ul .container .input-box li p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 576px) {
+    ul .container {
+        width: 270px;
+        height: 310px;
+        padding: 25px;
+        position: relative;
+        margin: 100px auto;
+        border-radius: 10px;
+        box-shadow: -1px 5px 20px 4px rgba(0, 0, 0, 0.16);
+    }
+}
